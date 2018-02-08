@@ -8,7 +8,7 @@
   grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
   grid-gap: 20px;
 }
-.full-width-image {
+.full-width-image-1 {
   display: block;
   width: 100%;
   grid-column: 1/-1;
@@ -42,6 +42,40 @@
 }
 
 .full-width-image-3 {
+  display: block;
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+.item5 {
+  grid-column: 1/2;
+  grid-row: 6/6;
+  align-self: center;
+}
+
+.item6 {
+  grid-column: 2/2;
+  grid-row: 6/6;
+}
+
+.full-width-image-4 {
+  display: block;
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+.item7 {
+  grid-column: 1/2;
+  grid-row: 8/8;
+  align-self: center;
+}
+
+.item8 {
+  grid-column: 2/2;
+  grid-row: 8/8;
+}
+
+.full-width-image-5 {
   display: block;
   width: 100%;
   grid-column: 1/-1;
