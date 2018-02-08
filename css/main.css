@@ -2,16 +2,14 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 10px;
-}
 @media (min-width: 600px) {
   .container {
+    display: grid;
     grid-template-columns: 1fr 1.75fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
   }
 }
 
