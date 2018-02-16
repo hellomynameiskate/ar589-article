@@ -26,11 +26,8 @@
 }
 
 .small-image {
-  display: block;
-  width: 50%;
   grid-column: 1/1;
   grid-row: 2/2;
-  align-item: center;
 }
 
 .item2 {
