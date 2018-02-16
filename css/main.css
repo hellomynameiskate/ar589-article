@@ -17,11 +17,20 @@
   width: 100%;
   grid-column: 1/-1;
 }
+
 .item1 {
   grid-column: 1/1;
   grid-row: 2/2;
   align-self: auto;
   font-size: 60px;
+}
+
+.small-image {
+  display: block;
+  width: 50%;
+  grid-column: 1/1;
+  grid-row: 2/2;
+  align-item: center;
 }
 
 .item2 {
